@@ -12,7 +12,8 @@ Este documento apresenta uma implementação de um sistema hospitalar que utiliz
 - **Aplicabilidade**: Utilizado para a conexão com o banco de dados. Em sistemas hospitalares, onde várias partes do sistema precisam acessar os mesmos dados, uma única instância de conexão é eficiente, pois evita o overhead de múltiplas conexões ao banco.
 - **Justificativa**: Esse padrão evita duplicidade de instâncias de conexão, economizando recursos e prevenindo inconsistências de dados. Ele é essencial em sistemas onde a integridade e a performance do banco de dados são cruciais.
 
-![alt text](singleton.png)
+![Singleton](/doc/diagrams/singleton.png)
+
 
 ---
 ### Builder
@@ -22,7 +23,7 @@ Este documento apresenta uma implementação de um sistema hospitalar que utiliz
 - **Justificativa**: O Builder torna o processo de criação de objetos flexível, facilitando a personalização dos dados de cada paciente. Esse padrão é útil para sistemas médicos, onde nem todos os dados de um paciente são sempre necessários para o processamento.
 
 
-![alt text](builder.png)
+![Builder](/doc/diagrams/builder.png)
 
 ---
 
@@ -32,7 +33,7 @@ Este documento apresenta uma implementação de um sistema hospitalar que utiliz
 - **Aplicabilidade**: Utilizado para conectar o sistema hospitalar a serviços de dados médicos externos (por exemplo, um serviço de histórico médico de terceiros). Ele adapta a API de terceiros para uma interface interna que o sistema pode utilizar.
 - **Justificativa**: O Adapter torna o sistema flexível para interagir com diversas APIs externas, sem alterar o código base. Em um sistema hospitalar, essa capacidade de adaptação é essencial para integrar novos serviços de maneira ágil e consistente.
 
-![alt text](adapter.png)
+![adapter](/doc/diagrams/adapter.png)
 
 ---
 
@@ -43,7 +44,8 @@ Este documento apresenta uma implementação de um sistema hospitalar que utiliz
 - **Justificativa**: O Observer permite que diferentes partes interessadas (observadores) recebam atualizações sem que o sistema precise gerenciar manualmente o envio de notificações. Essa automação melhora a comunicação no sistema hospitalar, mantendo médicos e familiares informados sobre o tratamento do paciente de forma eficiente.
 
 
-![alt text](observer.png)
+![observer](/doc/diagrams/observer.png)
+
 ---
 
 ### 3. Conclusão
