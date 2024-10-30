@@ -32,6 +32,7 @@ Este documento apresenta uma implementação de um sistema hospitalar que utiliz
 ![builder](/doc/diagrams/builder.png)
 
 </center>
+
 ---
 
 ### Adapter
